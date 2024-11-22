@@ -1,19 +1,33 @@
 \documentclass{common/nak}
 
-%Deckblattkonfiguration
-%Die Werte in den Klammern können entsprechend angepasst werden
-\def\transferLeistungnnummer{1}
-\def\matrikelNummer{11111}
-\def\themenBeschreibung{Irgendein langweiliger shit der nichts mit Informatik zutun hat}
-\def\studienGang{Studiengang}
-\def\zenturie{x00a}
+
+% Variablen
+\def\vorname{Vorname}
+\def\nachname{Nachname}
+\def\matrikelnummer{00000}
+\def\email{email@example.com}
+\def\zenturie{x00x}
+\def\adresse{Adresse}
+\def\vorgelegtAm{00.00.00}
+\def\bearbeitungszeitraum{00.00.00 - 00.00.00}
+\def\erstgutachter{Erstgutachter:in}
+\def\zweitgutachter{Zweitgutachter:in}
+\def\betrieblicherBetreuer{Betriebliche:r Betreuer:in}
+\def\partnerunternehmen{Partnerunternehmen}
+\def\titelDerBachelorarbeit{Titel der Bachelorarbeit}
+\def\studiengang{Studiengang}
+
+\def\ort{Ort}
+
+\def\themenBeschreibung{themenBeschreibung}
+\def\keywords{Keyword 1, Keyword 2, Keyword 3}
 
 % PDF-Metadaten setzen
 \hypersetup{
-    pdftitle    = {Titel},
+    pdftitle    = {\titelDerBachelorarbeit},
     pdfsubject  = {\themenBeschreibung},
-    pdfauthor   = {Author},
-    pdfkeywords = {Keyword 1, Keyword 2, Keyword 3} ,
+    pdfauthor   = {\vorname\ \nachname},
+    pdfkeywords = {\keywords},,
     pdfcreator  = {},
     pdfproducer = {}
 }
@@ -24,12 +38,15 @@
 \begin{document}
 
 %Transferlesitungs Seite
-\input{common/transferleistungTitelBlatt}
+\input{common/titelseite.tex}
 \newpage
 
 %Seitenzahlen
 \pagenumbering{roman}
 \setcounter{page}{0}
+
+%Sperrvermerk
+\sperrvermerk{}
 
 %Verzeichnisse
 \inhaltsverzeichnis{}
@@ -71,5 +88,11 @@
 \newpage
 \clearpage
 \quellenverzeichnis{}
+
+%Eidesstattliche Erklärung
+\erklaerung{}
+
+%Anhang
+\anhang{}
 
 \end{document}

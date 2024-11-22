@@ -268,6 +268,34 @@
 	\end{center}
 }
 
+% Anhang
+\newcommand{\anhang}{
+	\newpage
+	\phantomsection
+	\section*{Anhang}
+	\addcontentsline{toc}{section}{\footnotesize{Anhang}}
+	\begin{center}
+		\input{anhang.tex}
+	\end{center}
+}
+
+% Speervermerk
+\newcommand{\sperrvermerk}{
+	\newpage
+	\phantomsection
+	\section*{Sperrvermerk}
+	\input{sperrvermerk.tex}
+}
+
+% Eidesstattliche Erklärung
+\newcommand{\erklaerung}{
+	\newpage
+	\phantomsection
+	\section*{Eidesstattliche Erklärung}
+	\addcontentsline{toc}{section}{\footnotesize{Eidesstattliche Erklärung}}
+	\input{erklaerung.tex}
+}
+
 % Quellcodeverzeichnis
 %\newcommand{\listingverzeichnis}{
 %	\phantomsection
