@@ -1,8 +1,8 @@
-![](https://img.shields.io/badge/Stand-Juli_2024-green)
+![](https://img.shields.io/badge/Stand-November_2024-orange)
 
-# NAK-Transferleistungs-Template
+# NAK-Bachelorarbeit-Template
 
-Dies ist eine LaTeX-Vorlage und Dokumentenklasse für Transferleistungen an der [Nordakademie](https://www.nordakademie.de). Mit dieser Vorlage kannst du Transferleistungen in einem strukturierten und ansprechenden Format erstellen. Sie enthält vorgefertigte Abschnitte, Stile und Funktionen, die den Anforderungen der Nordakademie entsprechen (**Stand: August 2023**).
+Dies ist eine LaTeX-Vorlage und Dokumentenklasse für Bachelorarbeiten an der [Nordakademie](https://www.nordakademie.de). Mit dieser Vorlage kannst du Bachelorarbeiten in einem strukturierten und ansprechenden Format erstellen. Sie enthält vorgefertigte Abschnitte, Stile und Funktionen. Eine Garantie, dass sie den Anforderungen der Nordakademie entspricht, gibt es nicht.
 
 ## Verwendung der Vorlage
 
@@ -10,9 +10,9 @@ Um diese Vorlage zu verwenden, folge diesen Schritten:
 
 1. Klicke auf den grünen Button "Use this template" oben auf dieser GitHub-Seite, um ein neues Repository basierend auf dieser Vorlage zu erstellen.
 2. Klon das erstellte Repository auf deinen Computer.
-3. Passe die Transferleistung-Tex-Datei (`transferleistung.tex`) an, um die Informationen deiner Transferleistung einzufügen.
+3. Passe die Bachelorarbeit-Tex-Datei (`bachelorarbeit.tex`) an, um die Informationen deiner Bachelorarbeit einzufügen.
 4. Füge Bilder in den `images`-Ordner ein, und verwende den `sections`-Ordner für deine Texte. Benenne die Textdateien entsprechend der Nummerierung (z.B. `file-01.tex`), um sie automatisch nach der Nummerierung in das Dokument eingefügt.
-5. Erstelle die Transferleistung, indem du die transferleistung.tex via LaTeX erstellen lässt.
+5. Erstelle die Bachelorarbeit, indem du die bachelorarbeit.tex via LaTeX erstellen lässt.
 
 ## Verwendete Pakete und Funktionen
 
