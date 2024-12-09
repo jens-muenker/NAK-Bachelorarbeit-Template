@@ -26,7 +26,7 @@
 \RequirePackage{setspace}
 \setstretch{1.25} %Zeilenabstrand 1.25
 
-\RequirePackage[margin=2cm, includefoot, heightrounded]{geometry} % Seitenrand 2cm
+\RequirePackage[margin=3cm, includefoot, heightrounded]{geometry} % Seitenrand 2cm
 \RequirePackage{microtype}
 
 \RequirePackage[table]{xcolor} % Farben in Tabellen
